@@ -11,6 +11,20 @@ CREATE TABLE student(
 )
 
 
+--To Rename Table
+ALTER TABLE student RENAME TO studentRENAME;
+
+--To drop table
+DROP TABLE student;
+
+--TRUNCATE TABLE Vs DROP TABLE
+--Drop table command can also be used to delete complete table but it deletes table structure too. TRUNCATE TABLE doesn't delete the structure of the table.
+TRUNCATE TABLE student;  
+
+
+
+
+
 --Add Column
 ALTER TABLE student ADD temp varchar(255);
 
